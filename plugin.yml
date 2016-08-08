@@ -1,0 +1,20 @@
+name: CivLobby
+main: com.gordonfreemanq.civlobby.CivLobby
+version: 0.0.1
+description: CivLobby
+author: GFQ
+depend: [WorldEdit, WorldGuard]
+commands:
+  lobby:
+    description: The Lobby base command
+    aliases: [l]
+  help:
+    description: Gets plugin help
+    usage: /<command>
+    aliases: "?"
+  unknown:
+    description: Unknown commands
+    usage: /<command>
+    aliases: [ban, parson, give]
+  spawn:
+  setspawn:
